@@ -1,0 +1,16 @@
+README for SingletonLab (Updated Configuration Class):
+SingletonLab - Configuration Class
+
+This is an example Java program demonstrating the implementation of a thread-safe singleton pattern for a configuration class using double-checked locking.
+Description
+
+The Configuration class in this project represents a singleton configuration manager. It reads configuration data from a config.properties file and stores it in a HashMap. The class ensures that only one instance of the configuration manager is created, making it suitable for use in multi-threaded environments.
+Usage
+
+To use the Configuration class in your project:
+
+    Clone or download this repository.
+
+    Include the Configuration.java class in your project.
+
+    Access the configuration values using the Configuration.getInstance().getValue(key) method.
