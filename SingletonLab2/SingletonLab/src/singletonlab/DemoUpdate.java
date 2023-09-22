@@ -9,13 +9,12 @@ package singletonlab;
  *
  * @author fa20-bse-172
  */
-public class SingletonLab {
-
-    /**
-     * @param args the command line arguments
-     */
+ 
+public class DemoUpdate {
     public static void main(String[] args) {
-        // TODO code application logic here
+        Configuration config = Configuration.getInstance();
+        System.out.println(config.getValue("mode"));
+        System.out.println(config.getValue("font-size"));
+        System.out.println(config.getValue("font-type"));
     }
-    
 }
